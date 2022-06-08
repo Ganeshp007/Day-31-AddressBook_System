@@ -29,3 +29,8 @@ update AddressBook_Details set Address='Kalyan Nagar',City='Mumbai',PinCode=4000
 where FirstName='Ajay'
 
 select * from AddressBook_Details                  
+
+--UC5 => Delete Record From Table using Record's Name
+
+delete from AddressBook_Details where FirstName='Komal'and LastName='Arude'
+select * from AddressBook_Details                  
